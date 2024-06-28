@@ -26,5 +26,5 @@ flutter pub get
 Run the application:
 flutter run
 
-Or install and run the apk on your android device.
+Or install and run the apk which can be found on the apk folder. The current application currently runs on android only
 
