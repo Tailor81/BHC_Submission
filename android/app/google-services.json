@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1026323181120",
+    "project_id": "bhc-app-1fa04",
+    "storage_bucket": "bhc-app-1fa04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026323181120:android:160cf543c4f628378839a5",
+        "android_client_info": {
+          "package_name": "com.example.housing_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBiJi0IugRO4M21u3984rql4JU5vS1gCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

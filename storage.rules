@@ -1,0 +1,15 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Allow authenticated users to read and write their own files
+    match /user_files/{userId}/{allPaths=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Allow read and write access to property images
+    match /property_images/{propertyId}/{fileName} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null; // Adjust as per your application's logic
+    }
+  }
+}
